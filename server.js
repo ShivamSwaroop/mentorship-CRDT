@@ -1,6 +1,6 @@
-import http from "http";
-import WebSocket from "ws";
-import { setupWSConnection } from "y-websocket/bin/utils.js";
+const http = require("http");
+const WebSocket = require("ws");
+const { setupWSConnection } = require("y-websocket/bin/utils.js");
 
 const server = http.createServer();
 
